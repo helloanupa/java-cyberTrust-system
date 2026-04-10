@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>controller.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminLoginServlet</servlet-name>
+        <servlet-class>controller.AdminLoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminLoginServlet</servlet-name>
+        <url-pattern>/AdminLoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminDashboardServlet</servlet-name>
+        <servlet-class>controller.AdminDashboardServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminDashboardServlet</servlet-name>
+        <url-pattern>/AdminDashboardServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminLoanServlet</servlet-name>
+        <servlet-class>controller.AdminLoanServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminLoanServlet</servlet-name>
+        <url-pattern>/AdminLoanServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminSupportTicketServlet</servlet-name>
+        <servlet-class>controller.AdminSupportTicketServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminSupportTicketServlet</servlet-name>
+        <url-pattern>/AdminSupportTicketServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoanManagementServlet</servlet-name>
+        <servlet-class>controller.LoanManagementServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoanManagementServlet</servlet-name>
+        <url-pattern>/LoanManagementServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ContactMessageServlet</servlet-name>
+        <servlet-class>controller.ContactMessageServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ContactMessageServlet</servlet-name>
+        <url-pattern>/ContactMessageServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoanApplicationServlet</servlet-name>
+        <servlet-class>controller.LoanApplicationServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoanApplicationServlet</servlet-name>
+        <url-pattern>/LoanApplicationServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ProfileServlet</servlet-name>
+        <servlet-class>controller.ProfileServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ProfileServlet</servlet-name>
+        <url-pattern>/ProfileServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SupportTicketServlet</servlet-name>
+        <servlet-class>controller.SupportTicketServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SupportTicketServlet</servlet-name>
+        <url-pattern>/SupportTicketServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>controller.RegisterServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminDeleteTicketServlet</servlet-name>
+        <servlet-class>controller.AdminDeleteTicketServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminDeleteTicketServlet</servlet-name>
+        <url-pattern>/AdminDeleteTicketServlet</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app> 
